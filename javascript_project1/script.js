@@ -74,7 +74,7 @@ function displayUser() {
 
 // Function to convert years to months
 function calculateMonths(age) {
-    return age * 12; // 1 year = 12 months
+    return age * 12; 
 }
 
 // Show user data when the page loads
