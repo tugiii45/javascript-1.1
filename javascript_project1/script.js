@@ -79,4 +79,5 @@ function calculateMonths(age) {
 
 // Show user data when the page loads
 window.onload = displayUser;
+// Without this line, the saved data would only show up after the user fills out the form
     
