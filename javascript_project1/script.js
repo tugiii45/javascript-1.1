@@ -61,7 +61,7 @@ function displayUser() {
 
     // Create the motivational quote
     let quoteText = "Success is not final, failure is not fatal: It is the courage to continue that counts.";
-    let quotesHTML = " ";
+    let quotesHTML = "";
 
     // Repeat the quote 5 times
     for (let i = 0; i < 5; i++) {
