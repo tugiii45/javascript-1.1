@@ -1,4 +1,4 @@
-// Listen for when the user submits the form
+// When the user clicks the Save button on the form...
 document.getElementById("userform").addEventListener("submit", function(e) {
     e.preventDefault(); // Prevent page from reloading
 
