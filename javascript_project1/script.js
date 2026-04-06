@@ -45,9 +45,9 @@ function displayUser() {
         message = "You're a child! Enjoy your youth and learn every day.";
         ageGroup = "child";
     } else if (savedUser.age < 18) {
-        message = "You're a teenager! Stay curious and chase your dreams.";
+        message = "You're a teenager! Stay curious and chase your dreams, don't forget to read.";
         ageGroup = "teen";
-    } else if (savedUser.age < 65) {
+    } else if (savedUser.age < 60) {
         message = "You're an adult! Keep achieving and inspiring others.";
         ageGroup = "adult";
     } else {
