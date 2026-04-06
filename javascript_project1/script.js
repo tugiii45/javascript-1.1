@@ -41,7 +41,7 @@ function displayUser() {
     let ageGroup;
 
     // Choose a message based on the user's age
-    if (savedUser.age < 13) {
+    if (savedUser.age < 12) {
         message = "You're a child! Enjoy your youth and learn every day.";
         ageGroup = "child";
     } else if (savedUser.age < 18) {
